@@ -1,0 +1,24 @@
+.Card {
+  width: 600px;
+  margin-top: 3vw;
+  margin-left: 3vw;
+}
+
+.Card .title small {
+  font-weight: normal;
+}
+
+.chart-wrapper {
+  position: relative;
+}
+
+.chart {
+  margin-top: 30px;
+  width: 100%;
+}
+
+.param-wrapper {
+  position: absolute;
+  bottom: 20%;
+  right: 5%;
+}
