@@ -26,7 +26,7 @@ function calculateProportions(proportions) {
 }
 
 
-// TEST CALCULATIONS
+// -- TEST CALCULATIONS
 const input = [
     '1.5', '3', '6', '1.5'
 ];
@@ -65,7 +65,9 @@ if (calculated.compare(expected)) {
 }
 
 
-// TEST MAX INPUT SIZE
+// -- TEST MAX INPUT SIZE
+
+// Генерирует n случайных пропорций
 const generatePropotions = count => {
   const proportions = []
   // Округлить цисло до ближайшего 0.5
